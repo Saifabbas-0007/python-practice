@@ -37,3 +37,15 @@ elif choice == '**':
      print(f'exponents: {num_1 * num_2}')
 else: 
     print('invalid choice')
+
+"""
+loops 
+while loop
+for loop
+
+"""
+i = 1
+while i<= 5:
+    print(i)
+    i += 1
+    
