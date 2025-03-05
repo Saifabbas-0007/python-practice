@@ -59,3 +59,10 @@ while i<= 5:
 #range (start,stop,step)
 a = tuple(range(1,11,1))
 print(a)
+for i in range (1,3):
+    for j in range (3,6):
+        print(f'{i},{j}')
+for num in range (1,10,1):
+    if num == 5:
+        break
+    print( num )
