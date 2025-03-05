@@ -62,7 +62,27 @@ print(a)
 for i in range (1,3):
     for j in range (3,6):
         print(f'{i},{j}')
+
 for num in range (1,10,1):
     if num == 5:
         break
     print( num )
+
+    for num in range (1,10,1):
+        if num == 4:
+            continue #skip
+        print( num)
+
+for i in range (1,11):
+    if i %2 == 0:
+        print('even',i) 
+    else: 
+        print('odd',i) 
+        
+        start = int (input('enter the start number'))
+        stop = int(input('enter the stop number'))
+        skip = int (input('enter the skip number'))
+        for i in range (start,stop):
+            if i == skip:
+                continue
+            print(i)
