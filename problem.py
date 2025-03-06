@@ -78,7 +78,7 @@ for i in range (1,11):
         print('even',i) 
     else: 
         print('odd',i) 
-        
+
         start = int (input('enter the start number'))
         stop = int(input('enter the stop number'))
         skip = int (input('enter the skip number'))
