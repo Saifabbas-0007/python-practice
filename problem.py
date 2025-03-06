@@ -86,3 +86,4 @@ for i in range (1,11):
             if i == skip:
                 continue
             print(i)
+            
