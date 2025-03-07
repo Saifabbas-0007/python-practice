@@ -31,3 +31,17 @@ lst1 = [1,2,3,4,5]
 lst2 = [6,7,8,9]
 result = lst1 + lst2
 print(result)
+
+#repeated 
+lst = [1, 2, 3, "python"]
+print(lst *5)
+
+#membership to check that the element is presents in lst or not
+# in ,not in
+
+lst = [1, 2, 3, 4, 5]
+check = int (input ("enter the  number to check"))
+if check in lst :
+    print("found")
+else:
+    print("not found")
