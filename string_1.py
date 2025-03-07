@@ -53,3 +53,33 @@ text = "pythoniskingofAi"
 print(text[::])
 text = "pythoniskingofAi"
 print(text[::-1])
+#repeating a string
+number = "20"
+print( number *10 )
+#__________________
+#concatenate adding two string
+name = "saif"
+ser_name = "abbas"
+print (name +  ser_name)
+
+#___________
+#checking memnership - in , not in 
+text = "python is the king if ai"
+print("king" in text)
+print("java" not in text) 
+
+email = "@usergmail.com"
+if "@" in email:
+    print('vald email')
+else:
+    print("in_valid enail")
+str = "THIS IS PYTHON".lower() #lower case
+print( str)
+print(str.lower())  
+str = input("enter your name").lower()
+print(str)
+#same with upper case
+#________
+#capitalise = omly first character of letter is going to be upper 
+str = input ("enter your name").capitalize()
+print(str)
