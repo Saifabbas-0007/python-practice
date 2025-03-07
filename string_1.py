@@ -14,6 +14,7 @@ t 2
 h 3
 o 4
 n 5
+iterable also 
 
 """
 a = "python"
@@ -23,3 +24,10 @@ print( a[-1])
 -ve indexing starts from -1 
 
 '''
+language = "python"
+for i in language:
+    print(i)
+
+#len function - return the integer value also counts the space 
+str = "python is simple language"
+print(len(str))
