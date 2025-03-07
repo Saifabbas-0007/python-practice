@@ -20,3 +20,7 @@ lst = [1, 2, 3, 4, 5]
 print(f"before update{lst}")
 lst [2] = "hello"
 print(f"after uodate{lst}")
+ #if you want to update the multiple value use slice
+lst = [ 1,2,3,4,"hello"]
+lst[ 1:3 ] = 10 ,56
+print(lst) 
