@@ -107,3 +107,29 @@ text = "python programming"
 print(text.find("t"))
 text = "python programming"
 print(text.replace("python","java")) 
+
+#______-
+""" 
+  spliting  provides list in output  & joining 
+
+"""
+text = "a,b,c"
+print(text.split(","))
+
+text = "a,b,c"
+s = text.split(",")
+print("after spliting",s)
+result = "," .join(s)
+print(result)
+
+#checking method startswith() return boolean  
+#sames as endswith()
+text = "Python "
+print(text.startswith("P")) 
+#isalpha = sare word alphabet me hai ?
+text = "python programmng"
+print(text.isalpha())
+#similar with isdigit()
+#isalanum
+text = "123python"
+print(text.isalnum())
