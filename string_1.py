@@ -73,13 +73,37 @@ if "@" in email:
     print('vald email')
 else:
     print("in_valid enail")
-str = "THIS IS PYTHON".lower() #lower case
+str = "THIS IS PYTHON".lower() #lower() case
 print( str)
 print(str.lower())  
 str = input("enter your name").lower()
 print(str)
 #same with upper case
 #________
-#capitalise = omly first character of letter is going to be upper 
+#capitalise() = omly first character of letter is going to be upper 
 str = input ("enter your name").capitalize()
 print(str)
+ 
+ #_________
+ #title() = basically all the first word if sentence is going to be upper
+
+text = " the python is the king of aiml ".title()
+print(text)
+
+#_______
+#swapcases() = change the cases upper to lower ,lower to upper
+
+text = input("enter the word").swapcase()
+print(text)
+
+#_________
+'''
+searching and replacing
+two types 1- find(pass substring) return the first occurence of the substring
+2- replace method 
+'''
+
+text = "python programming"
+print(text.find("t"))
+text = "python programming"
+print(text.replace("python","java")) 
