@@ -31,3 +31,25 @@ for i in language:
 #len function - return the integer value also counts the space 
 str = "python is simple language"
 print(len(str))
+
+password = "123@#$"
+if len(password) >5:
+    print("login successful")
+else:
+    print("login unsuccessful")
+    
+#____________________
+#slicing 
+'''
+string[start:stop:step]
+start = 0
+stop = exclusive 
+step = gap
+
+'''
+text = "pythoniskingofAi"
+print(text[1:10:2]) 
+text = "pythoniskingofAi"
+print(text[::])
+text = "pythoniskingofAi"
+print(text[::-1])
