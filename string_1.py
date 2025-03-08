@@ -53,6 +53,8 @@ text = "pythoniskingofAi"
 print(text[::])
 text = "pythoniskingofAi"
 print(text[::-1])
+a = "python"
+print(a[-1]) 
 #repeating a string
 number = "20"
 print( number *10 )
