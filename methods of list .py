@@ -48,3 +48,26 @@ lst =[24,56,78,90,56,-12,-23,98,89]
 lst.sort()
 print(lst)
 
+#reverse() method : to reverse the list 
+lst = [1, 2, 3, 4]
+lst.reverse()
+print(lst)
+ 
+#copy() method : to copy the elements of list 
+a = [1,2,3,4]
+a_copy = a.copy()
+print(a_copy) 
+
+#min ,max() method : to find the min and max value from the list
+lst = [1,20,300,56,-21]
+print(min(lst))
+print(max(lst))
+
+#common elements :to find the common elements
+lst_1 = [1,2,3,4]
+lst_2 = [3,4,5,6]
+# now first change this into set to proceed further
+s1 = set(lst_1)
+s2 = set (lst_2)
+s3 = s1.intersection(s2)
+print(list(s3))
