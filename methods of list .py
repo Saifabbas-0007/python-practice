@@ -71,3 +71,50 @@ s1 = set(lst_1)
 s2 = set (lst_2)
 s3 = s1.intersection(s2)
 print(list(s3))
+
+#nested list 
+a =[1,2,3]
+b =[ 4,5,6,a,[7,8,9]]
+print(b)
+
+#range function : to make a list in broad way it is applicable for only integer
+'''
+start 
+stop
+step
+'''   
+number = range(1,20,1) #here also list work
+print(list(number)) #same here also work
+
+#list compare method
+#example of printing square
+square =[]
+for i in range(1,11):
+    square.append(i **  2)
+    print(square) 
+
+squares =[i ** 2 for i in range(1,11)if i % 2 == 0 ]
+print(squares)
+
+''' tuples:  1- immutable 
+2- heterogeneous
+3- should be in paranthese()'''
+ 
+a = 10,20,30 #if not pass something by default its tuple not used for large project
+print(type(a)) 
+'''
+/methods /modification/ characteristic of tuple
+len()
+min max
+count()
+index()
+sorted()
+'''
+a =[1,2,3,4] #accessing
+print(a[0]) 
+a =[1,2,3,4,5,6]
+print(a[0:5:1])
+
+
+
+
