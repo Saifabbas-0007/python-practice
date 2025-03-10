@@ -28,3 +28,19 @@ a = [1,2,3,4]
 popped = a.pop(2)
 print(popped)
 print(a)
+ #clear()method :that clear the total elements of list 
+lst =[1,2,3,4,5]
+lst.clear()
+print(lst)
+
+# index()method :that tells the index of the elements
+lst = [1, 2, 3, 4, 5,]
+index = lst.index(5)
+print(index)
+
+#count() method :that tells how many times the elements is occur 
+lst = [1, 2, 3, 4, 1, 1, 3, 1, 1, 'java', 'python','dsa'] 
+counter = lst.count("java")
+print(counter)
+
+
