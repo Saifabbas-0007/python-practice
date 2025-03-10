@@ -113,3 +113,7 @@ not in -
 """
 vegetables =['karela','aloo', 'tamatar']
 print('karela' in vegetables)
+a = 2
+a += 2
+b = a
+print(a,b)
