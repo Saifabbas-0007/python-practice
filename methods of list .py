@@ -43,4 +43,8 @@ lst = [1, 2, 3, 4, 1, 1, 3, 1, 1, 'java', 'python','dsa']
 counter = lst.count("java")
 print(counter)
 
+#sort : that aort the elemnts
+lst =[24,56,78,90,56,-12,-23,98,89]
+lst.sort()
+print(lst)
 
