@@ -115,6 +115,6 @@ rogramming_language = {
     "python":{"name":"python","versio":4.9,"use_case":[ 'ai,ml,webdev']}
     ,"java":{"name":"java","versio":3.9,"use_case":[ 'ai,ml,webdev']}
 }
-for keys in programming_language.keys():#here also use values toget the value of dict
+for keys in programming_language.keys():#here also use values toget the value of dict or to get all the elements use items()
  print(keys)
 
