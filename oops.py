@@ -55,6 +55,19 @@ car_2.detail("mercedes","G-wagon")
 car_1.show_detail() 
 car_2.show_detail()
 
-
-
-       
+#self : is a keyword that is used inside the class to refer to the current objects
+'''class students():
+    def set_details(name ,age)
+        name = name 
+        age = age
+students1 =students()
+students1.set_details("saif",90)
+print(students1.name)
+'''
+class students():
+    def set_details(self,name ,marks):
+        self.name = name 
+        self.marks = marks
+students1 =students()
+students1.set_details("saif",90)
+print(students1.name,students1.marks)
