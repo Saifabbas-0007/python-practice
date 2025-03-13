@@ -102,3 +102,9 @@ students1 = students('saif',23,'A+')
 students2 = students('saru',20, 'A+') 
 print(students1.name,students1.age,students1.grade)
 print(students2.name,students2.age,students2.grade)
+
+'''
+types of constructor
+1- default constr
+2-parameterized constr(self, age, name)
+constr with default value(self, name = "unknown)'''
