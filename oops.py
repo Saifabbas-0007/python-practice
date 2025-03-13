@@ -26,5 +26,35 @@ mage = character("gandalf",90,200)
 warrior.attack_enemy()
 mage.attack_enemy()
 
+"""
+1 classes & objects
+2 inheritence
+3 encapsulation
+4 abstraction
+5 polymorphism
+
+ """
+'''
+class - a blue print or template for creating objects
+map -class
+house - objects '''
+
+class car():
+    def detail(self,brand,model):
+        self.brand = brand
+        self.model = model
+    def show_detail(self):
+     print(f'this is a car,{self.brand} {self.model}')
+
+car_1 = car()
+car_1.detail("bMW","M5")
+
+car_2 =car()
+car_2.detail("mercedes","G-wagon") 
+
+car_1.show_detail() 
+car_2.show_detail()
+
+
 
        
