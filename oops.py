@@ -71,3 +71,34 @@ class students():
 students1 =students()
 students1.set_details("saif",90)
 print(students1.name,students1.marks)
+
+#constructor :__init__()
+#without constructor
+
+class car():
+    def set_details(self,name,color):
+        self.name = name
+        self.color = color
+car1 = car()
+car1.set_details('bmw','red')
+print(car1.name)
+print(car1.color)
+
+#with constructor
+
+class car():
+    def __init__(self,name,color):
+        self.name = name
+        self.color = color
+car1 = car('bmw','black')
+print(car1.name,car1.color)
+
+class students :
+    def __init__(self,name ,age , grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+students1 = students('saif',23,'A+') 
+students2 = students('saru',20, 'A+') 
+print(students1.name,students1.age,students1.grade)
+print(students2.name,students2.age,students2.grade)
