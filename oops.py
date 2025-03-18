@@ -108,3 +108,92 @@ types of constructor
 1- default constr
 2-parameterized constr(self, age, name)
 constr with default value(self, name = "unknown)'''
+
+"""
+polymorphism
+one name , many form
+same function name alg alg datatypes ke leye kaam karega 
+same methods name alg alg classes ke leye alg alg kaam karega
+example run
+1- a person can run fast
+2- car runs on petrol
+ """
+print(len("python"))
+print(len((1,2,3)))
+print(len({"a":1,"b":2,"c":3}))
+
+#method overriding
+class bird():
+    def sound(self):
+        print("bird make sound")
+class crow(bird):
+    def sound(self):
+        print("crow sounds caw caw")
+class parrot(bird):
+    def sound(self):
+        print("parrot sounds squawk")
+bird1 = crow()
+bird2 = parrot( )
+bird1.sound()
+bird2.sound()
+
+print(10+5)
+print("hello"+"saif")
+print([1,2,3]+[4,5])
+
+'''
+encapsulation
+hiding the internal details of objects '''
+
+class Bankaccount():
+    def __init__(self,account_number,balance):
+        self.account_number = account_number
+        self.__balance = balance #to make he balance private
+    def deposit(self,amount):
+        self.__balance += amount
+        print(f'deposited{amount}.new balance{self.__balance}')
+    def get_balance(self):
+        return self.__balance #controlled access
+account = Bankaccount("12345",5000)
+
+account.deposit(2000)
+print(account.get_balance)
+
+'''
+inheritence
+to use the property of parent class in the child class
+'''
+
+class Animal():
+    def speaks(self):
+        print("animals make sound")
+
+class Dog (Animal):
+    def bark(self):
+        print("dog barks") 
+dog= Dog()              
+dog.bark()
+dog.speaks()
+
+'''
+abstarction
+complex  implementation deatils ko hide karna aur bs zarori details show karna user ko
+ '''           
+from abc import ABC, abstractmethod
+class vehicle(ABC):
+    @abstractmethod
+    def start (self):
+        pass 
+class car (vehicle):
+    def start(self):
+        print("car starts with a key")
+
+class bike(vehicle):
+    def start(self):
+        print("bike starts with a butt0n")
+
+car = car()
+bike =bike() 
+car.start()
+bike.start()
+
