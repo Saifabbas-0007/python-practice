@@ -27,4 +27,32 @@ except ZeroDivisionError:
 
 except ValueError:
     print("you cannot divide with string")
-            
+
+'''finally block: execute always even error occur'''   
+'''nested try-except'''
+
+try:
+    num_1 =int(input('enter the num 1 '))
+    num_2 = int(input('enter the num 2 '))
+    try:
+        result = num_1 / num_2
+        print(f'result,{result}')
+    except ZeroDivisionError:
+        print('you cannot divide with 0')
+
+except ValueError:
+    print('you must provide the valid input') 
+
+#check password strength
+
+def check_password(password):
+    if len (password)<8:
+        raise Exception("Error: Password must be greater the 8 character ")
+    print("Password is strong")
+try:
+    password =input("enter the password = ")
+    check_password(password)
+except Exception as e :
+    print(e)
+
+        
