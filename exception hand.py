@@ -55,4 +55,15 @@ try:
 except Exception as e :
     print(e)
 
-        
+''' file handling
+There are two primary files
+1- text files:that can be readable (.txt, .csv)
+2- binary files : that cannot be readable (non text data,.png, .jpg, .pdf, .mp3)
+'''
+
+""" open a file
+open("file name.txt","mode")
+"""
+file = open('file',"r+")
+content = file.read()
+print(content)
